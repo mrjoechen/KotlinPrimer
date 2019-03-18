@@ -27,7 +27,14 @@ fun main(args: Array<String>) {
 
 fun function(s: String) {
     //TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    print("hello")
+    println("hello")
+
+
+    print(function1("1111"))
+}
+
+fun function1(s: String) : String{
+    return s + "append function1"
 }
 
 
